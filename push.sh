@@ -1,5 +1,9 @@
 #!/bin/bash
 
+git init
+git commit -m "first commit"
+git remote add origin https://github.com/prafuljain123/testing2.git
+git push -u origin main
 
 while sleep 5
 do
